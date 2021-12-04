@@ -1,0 +1,85 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "338f7353-bfb4-4f9d-ad77-041cacefc0dc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def EATSAligner(token_sequences, token_vocab_size, lengths, speaker_ids, num_speakers, noise, out_offset, out_sequence_length=6000, sigma2=10.):\n",
+    "\"\"\"Returns audio-aligned features and lengths for the given input sequences. \"N\" denotes the batch size throughout the comments.\n",
+    "Args:\n",
+    "token_sequences: batch of token sequences indicating the ID of each token, padded to a fixed maximum sequence length (400 for training, 600 for sampling). Tokens may either correspond to raw characters or phonemes (as output by Phonemizer). Each sequence should begin and end with a special silence token (assumed to have already been added to the inputs). (dtype=int, shape=[N, in_sequence_length=600])\n",
+    "token_vocab_size: scalar int indicating the number of tokens.\n",
+    "(All values in token_sequences should be in [0, token_vocab_size).) lengths: indicates the true length <= in_sequence_length=600 of each\n",
+    "sequence in token_sequences before padding was added. (dtype=int, shape=[N])\n",
+    "speaker_ids: ints indicating the speaker ID. (dtype=int, shape=[N])\n",
+    "num_speakers: scalar int indicating the number of speakers. (All values in speaker_ids should be in [0, num_speakers).)\n",
+    "noise: 128D noise sampled from a standard isotropic Gaussian (N(0,1)). (dtype=float, shape=[N, 128])\n",
+    "out_offset: first timestep to output. Randomly sampled for training, 0 for sampling.\n",
+    "(dtype=int, shape=[N])\n",
+    "out_sequence_length: scalar int length of the output sequence at 200 Hz.\n",
+    "400 for training (2 seconds), 6000 for sampling (30 seconds). sigma2: scalar float temperature (sigma**2) for the softmax.\n",
+    "Returns:\n",
+    "aligned_features: audio-aligned features to be fed into the decoder. (dtype=float, shape=[N, out_sequence_length, 256])\n",
+    "aligned_lengths: the predicted audio-aligned lengths. (dtype=float, shape=[N])\n",
+    "\"\"\"\n",
+    "# Learn embeddings of the input tokens and speaker IDs.\n",
+    "embedded_tokens=Embed(input_vocab_size=token_vocab_size,\t# -> [N, 600, 256]\n",
+    "output_dim=256)(token_sequences) embedded_speaker_ids=Embed(input_vocab_size=num_speakers,\t# -> [N, 128]\n",
+    "output_dim=128)(speaker_ids)\n",
+    "\n",
+    "# Make the \"class-conditioning\" inputs for class-conditional batch norm (CCBN) # using the embedded speaker IDs and the noise. ccbn_condition=Concat([embedded_speaker_ids, noise], axis=1)\t# -> [N, 256] # Add a dummy sequence axis to ccbn_condition for broadcasting. ccbn_condition=ccbn_condition[:,\tNone, :] # -> [N, 1, 256]\n",
+    "# Use `lengths` to make a mask indicating valid entries of token_sequences. sequence_length=token_sequences.shape[1]\t# = 600 mask=Range(sequence_length)[ None, :]<lengths[:,\tNone] # -> [N, 600]\n",
+    "\n",
+    "# Dilated 1D convolution stack.\n",
+    "# 10 blocks * 6 convs per block = 60 convolutions total.\n",
+    "x=embedded_tokens\n",
+    "conv_mask=mask[:, :,\tNone] # -> [N, 600, 1]; dummy axis for broadcast.\n",
+    "for _ in range(10):\n",
+    "for a, b in [(1,2), (4,8), (16,32)]:\n",
+    "block_inputs=x\n",
+    "x=ReLU(ClassConditionalBatchNorm(x, ccbn_condition)) x=MaskedConv1D(output_channels=256, kernel_size=3, dilation=a)(\n",
+    "x, conv_mask) x=ReLU(ClassConditionalBatchNorm(x, ccbn_condition))\n",
+    "x=MaskedConv1D(output_channels=256, kernel_size=3, dilation=b)( x, conv_mask)\n",
+    "x+=block_inputs\t# -> [N, 600, 256]\n",
+    "# Save dilated conv stack outputs as unaligned_features.\n",
+    "unaligned_features=x\t# [N, 600, 256]\n",
+    "\n",
+    "# Map to predicted token lengths. x=ReLU(ClassConditionalBatchNorm(x, ccbn_condition)) x=Conv1D(output_channels=256, kernel_size=1)(x) x=ReLU(ClassConditionalBatchNorm(x, ccbn_condition)) x=Conv1D(output_channels=1, kernel_size=1)(x)\t# -> [N, 600, 1] token_lengths=ReLU(x[:, :,0])\t# -> [N, 600] token_ends=CumSum(token_lengths, axis=1)\t# -> [N, 600] token_centres=token_ends-(token_lengths/2.)\t\t\t# -> [N, 600]\n",
+    "# Compute predicted length as the last valid entry of token_ends. -> [N]\n",
+    "aligned_lengths=[end[length-1]\tfor end, length in zip(token_ends, lengths)]\n",
+    "\n",
+    "# Compute output grid -> [N, out_sequence_length=6000] out_pos=Range(out_sequence_length)[ None, :]+out_offset[:,\tNone] out_pos=Cast(out_pos[:, :,\tNone],float)\t# -> [N, 6000, 1] diff=token_centres[:,\tNone, :]-out_pos\t# -> [N, 6000, 600] logits=-(diff **2/sigma2)\t\t# -> [N, 6000, 600]\n",
+    "# Mask out invalid input locations (flip 0/1 to 1/0); add dummy output axis.\n",
+    "logits_inv_mask=1.-Cast(mask[:,\tNone, :],float)\t# -> [N, 1, 600] masked_logits=logits-1e9\t* logits_inv_mask # -> [N, 6000, 600] weights=Softmax(masked_logits, axis=2)\t# -> [N, 6000, 600]\n",
+    "# Do a batch matmul (written as an einsum) to compute the aligned features. # aligned_features -> [N, 6000, 256]\n",
+    "aligned_features=Einsum('noi,nid->nod', weights, unaligned_features)\n",
+    "\n",
+    "return aligned_features, aligned_lengths"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.8.11"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
