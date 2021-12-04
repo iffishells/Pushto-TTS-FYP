@@ -1,0 +1,7 @@
+IBM TTS System Summary :
+	I explored the IBM TTS System its not open source they have  system of different language like English
+	, Spanish and Arabic and some other language and each language have different dilacts and their interface 
+	is userfriendly like you can control the speed of the voice or control pitch of the voice audio by low and high
+
+
+link  : https://cloud.ibm.com/catalog/services/text-to-speech#about

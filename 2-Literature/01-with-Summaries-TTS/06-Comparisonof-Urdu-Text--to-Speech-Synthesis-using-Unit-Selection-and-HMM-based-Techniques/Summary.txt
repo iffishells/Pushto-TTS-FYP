@@ -1,0 +1,5 @@
+Summary :
+    In this paper That Urdu Text to speech system convert it into to **Selection Unit** and **HMM Model Base Synthesis**
+    In Selection unit where suitable pre-recorded units are concatenated to obtain the speech of the given text and HMM Model Base Synthesis
+    is a statictical parameteric technique . Given Text convert it into speech using parameteric representation . The main advantage is it stored
+    Parameteric representation rather than waveform.

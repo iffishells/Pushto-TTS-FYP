@@ -1,0 +1,30 @@
+		The Development of Pashto Speech Synthesis System
+
+Absract :
+	Pushto text to speech system is divided into two major components into
+		1)Natural Language processing Module
+		2)Digital signal processing Module
+	Introduction:
+		TTS System take the sequance of input words convert it into digital signal.In the History different approaches used like physical toots help to produce the Voice Speech.In this Paper different Methods
+		are discussed and proposed Approach and conclusion of all the stuff.
+	Speech synthesis Methods
+		Speech synthesis methods proposed in the liturature are following 
+			i)Formant synthesie,
+			ii)Articulate synthesis
+			iii)Concatenative synthesis
+		01)Articultory Synthesis
+			Articulary synthesis based on physiology of the human system and physics of production of humen in vocal cards . Articulator synthesis can make by electrical and mechanical and electronic component which costly and difficult to debug.
+		02)Formant Synthesis
+			formant synthsis is descriptive acoustic-phonetics approach.In formant synthesis parameter are following
+			is Fundamental frequency and noise level in order to make artifical speech . There are two structure of the formant synthesis that Cascaded and parallel.It more flexible and easy as compare to other.
+		03) Concatenative Synthesis
+			In Concatenative Synthesis this is most close to the natural human voice speech by selecting and concatenating speech units from the large database.locating the correct unit from the database is the most difficult part of the program. Shorter units takes less memory but collection of the labelling the speech sample become difficult and complex . Larger units takes more memory less concatination then achieved co-articualtion. The units used can be words syllable, phonemes,diphones,triphones. Phonemes is most common taking in the Speech system 
+	Natural Language processing:
+		In NLP there is pipeline 
+			i) pre-processing
+				Take the sequence of the raw text convert it into the tokens and then pass into the 'Morphological Analysis module' it use lexical information to obtain the Morphological parse and then recognize as the part of the speech. it cal also used from the dictionary of the Part of the speech (Table given in Paper) and then pass it into the Contextual Analysis and that this module use the unigram,bigram,trigram to find the Emession and transition probabilities of part of speech detail given in paper and then pass to 'Persodic Parser' that In Pashto speech synthesis, prosodic phrases are identified with a rather trivial chinks ’n chunks algorithm [12]. In the proposed system it is considered that a prosodic phrase break is automatically set when a word belonging to the chunks
+				group is followed by a word classified as a chink. Chinks are composed of conjunction preposition, pronoun, postposition; and chunks are composed of adjective, adverb, intransitive
+				verb, noun, transitive verb, verb, and punctuation. The classes of chinks and chunks considered for the synthesis of Pashto speech  and then pass to the 'Phonitizer'
+	Digital singal processing:
+		DSP module operates on the phonetic transcription obtained from the previous module and creates the speech waveform that can be reproduced audibly. In this work, the concatenative synthesis approach has been adopted. Twenty sentences of Pashto are stored in text corpus and the same are recorded and stored as .wav files. The HMM-based text-to-speech alignment system [13] is used to create the segmentation files. The content of the segmentation files is such that each line refers to a start point, an end point, and a phoneme name. Alignment, on the other hand, is trained by the degree of correspondence between the assumed phonemic transcription and the actual list of phonetic units produced. In some cases a difference between the assumed phonemic transcription and the actual list of phonetic units occurs due to
+		the co-articulation which cannot be taken into account in the phonemic transcriptions. The segmentation files are check and corrected where needed using the Wavesurfer tool. A speech unit database is generated from the segmented speech, containing information about the current phoneme, previous phoneme, next phoneme, the index of the part of speech of the current word, the index of the current prosodic phrase within the current sentence, the number of prosodic phrases on the right until the end of the sentence, the index of the current word within the current prosodic phrase, the number of words on the right until the end of the current prosodic phrase, the index of the sentence containing the phoneme and the start and end point for the current phoneme in the related wav file

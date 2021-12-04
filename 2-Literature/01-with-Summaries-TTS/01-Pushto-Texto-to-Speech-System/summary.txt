@@ -1,0 +1,29 @@
+Methodology:
+	01-Corpus Creation:
+		In this methodology first create the dataset by self becuase there is no data on the market related to
+		puhsto and then introduced ho to make the data that there are two ways first extract and normalize the script and record the the puhsto speech
+
+	02-Data Preparation:
+		2.1 Front end Analysis:
+			Analysis and lebelling come from the conventional end/approach. They contain the 'Tokenization','Part of speech Tagging' , 'Letter to Sound','Phase break' ,'inotation' etc. These combination will output you a linguistic specification.To Bypass above we have open source toolkit like espeark,Festival,MArryTTs, etc 
+			but they are not for Phusto .But i this work  we will use the 'ossain' which provide the all specification as describe above.
+		2.2 Normalizaton
+			Normalization is required to remove or replace with something else like sentance contain figure , charts,
+			numbers , symbols, Abbreviation for example 'FYI' mean for your information.we need to replace or remove from the sentance in other word we need to cover all these stuff. and senttance and word higly dependent on the Context.
+		2.3 Tokenization
+			Tokenzation the Sentance into words 
+		2.4 Letter to Sounds
+			To undetstand the Letter to sounds we need to undertstand the wrinting system in communication ways
+			.we devided the into the Three groups 'Alphabets' , 'Sylabaries', and 'logographics'
+			Alphabets in pushto is different from the Classifical alphabets like it consonent base approach for
+			example 'abujads' . its does not have separate symbol for the Consonent and Vowels.
+		2.6 Alignment and Silence Detection
+			For the forced alignment, HTS force alignment toolkit is used to extract the timing informa-
+			tion such as silence in the utterance, the start of a letter, the end of a letter, and sub-phone
+			information from the the utterance and then the extracted information is appended into the
+			front-end features file
+
+	03-Output(Acoustis) Features Extraction and Engineering
+		wavefrom is an output in TTS system play vital role and still under researching . from the observation
+		and  it is noted that it the utterance is created the and wavefrom is creted the waveform must be suitable 
+		if we are reconstruct the wavefrom but probelm is same words has difference utterance in the waveforom.
