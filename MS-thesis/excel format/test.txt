@@ -1,0 +1,876 @@
+﻿(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (V وکړه) (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AP (AV بیاي) (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AP (AV بیاي) (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP
+    (AP (NP (V وکړه)) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (NP (AV بیاي)) (VP (NP (V ووايه))))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AP (AV بیاي) (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (AV بیاي) (VP (NP (V ووايه)))))))
+(S
+  (NP (ADJ مهربانی))
+  (VP (AP (V وکړه) (VP (NP (AV بیاي)) (NP (V ووايه))))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي)))) (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (V ووايه)))
+(S (NP (ADJ مهربانی) (VP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S (NP (ADJ مهربانی) (NP (V وکړه))) (VP (AV بیاي) (VP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (AV بیاي) (VP (NP (V ووايه)))))
+(S
+  (NP (ADJ مهربانی) (VP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه))))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (NP (V وکړه)))
+  (VP (NP (AV بیاي)) (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (NP (V وکړه)) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (NP (V وکړه)) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (VP (AP (V وکړه) (VP (NP (AV بیاي))))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (NP (AV بیاي))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (NP (V وکړه)) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))
+(S
+  (NP (ADJ مهربانی) (AP (V وکړه) (VP (NP (AV بیاي)))))
+  (VP (NP (V ووايه))))

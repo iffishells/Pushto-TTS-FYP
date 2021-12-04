@@ -1,0 +1,74 @@
+﻿(S (NP (N يوسف)) (VP (AP (ADJ غلے) (V شو))))
+
+(S (NP (ADJ مهربانی)) (VP (V وکړه) (AP (AV بیاي) (V ووايه))))
+
+(S
+  (NP (N چین))
+  (VP
+    (AP
+      (NP (N پاکستان))
+      (VP (AP (NP (AV کې)) (VP (AP (ADJ صنعتونه) (V جوړوي))))))))
+
+(S
+  (NP (N د))
+  (VP
+    (AP
+      (NP (N پاکستانۍ))
+      (VP
+        (AP
+          (NP (N روپۍ))
+          (VP (AP (NP (N ارزښت)) (VP (AP (AV ولې) (V کمېږي))))))))))
+
+(S
+  (NP (PN دا))
+  (VP
+    (AP
+      (NP (N تادي))
+      (VP (AP (NP (N انجام)) (VP (AP (ADJ خراب) (V وې))))))))
+
+(S
+  (NP (PN کوم))
+  (VP
+    (AP
+      (NP (N ډول))
+      (VP
+        (AP
+          (NP (N ملګری))
+          (VP (AP (NP (ADJ داسې)) (VP (AP (ADJ چلند) (V کوي))))))))))
+
+(S (NP (N پلار)) (VP (V یې) (AP (V دلیل) (NP (AV وړاندې) (N کړ)))))
+
+(S
+  (NP (N زړه))
+  (VP
+    (V یې)
+    (AP
+      (NP (AV اوس))
+      (VP
+        (AP
+          (NP (AV هم) (N د))
+          (VP (AP (NP (N مجنون)) (VP (AP (ADJ سره) (V و))))))))))
+
+(S
+  (NP (PN چا))
+  (VP
+    (AP
+      (NP (N غوږ))
+      (VP (AP (NP (AV کې)) (VP (AP (AV راته) (V وويل))))))))
+
+(S
+  (NP (ADJ او))
+  (VP
+    (AP
+      (NP (N کله))
+      (VP (AP (NP (AV چې)) (VP (AP (ADJ باتور) (V راوګرځید))))))))
+
+(S
+  (NP (N کله))
+  (VP
+    (AP
+      (NP (AV چې) (N د))
+      (VP
+        (AP
+          (NP (AV دومره) (N زړورتوب))
+          (VP (AP (NP (ADJ سره)) (VP (AP (AV مخامخ) (V شو))))))))))

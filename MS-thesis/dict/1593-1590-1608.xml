@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<words>
+  <entry>
+    <word>عضو</word>
+    <int>
+      <pron>(عُ+ضْ+وْ)</pron>
+      <gram>[ع-اس-مذ-ج:اعضاء]</gram>
+      <poem/>
+      <meanings>
+        <meaning>اندام- د بدن حصه يا تكړه.</meaning>
+        <meaning>ديو جماعت وغېره غړے- ركن- ممبر.</meaning>
+      </meanings>
+    </int>
+  </entry>
+<entry><word>عضوي</word><int><pron>(عُ+ضْ+وِي)</pron><gram>[عف تر-صف]</gram><poem/><meanings><meaning>هغه څيز يا كار وغېره كوم چې عضو يعنې د بدن كومې حصې سره تعلق لري.</meaning></meanings></int></entry><entry><word>عضوي امراض</word><int><pron>(—+اَ+مْ+را+ض)</pron><gram>[عف تر-اس-ج]</gram><poem/><meanings><meaning>هغه مرضونه كوم چې د بدن مختلفو حصو سره تعلق لري.</meaning></meanings></int></entry><entry><word>عضوي كېميا</word><int><pron>(—+كِې+مِي+يا)</pron><gram/><poem/><meanings><meaning>د طبيعياتو هغه علم چې عضوياتو سره تعلق لري. (انګ:آرګېنګ كېمسټري)</meaning></meanings></int></entry><entry><word>عضوي مواد</word><int><pron>(—+مَ+وا+دْ)</pron><gram>[عف تر-اس-مذ-ج:ونه]</gram><poem/><meanings><meaning>هغه مواد كوم چې عضواتو (د بدن حصو) سره تعلق لري.</meaning></meanings></int></entry><entry><word>عضويت</word><int><pron>(عُ+زْ+وِي+تْ)</pron><gram>[ع-اس-مذ-ج:ونه]</gram><poem></poem><meanings><meaning>د كوم جماعت وغېره ركنيت- ممبري.</meaning></meanings></int></entry></words>
