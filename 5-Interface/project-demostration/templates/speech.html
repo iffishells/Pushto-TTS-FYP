@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="static/style.css">  
+  <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pushto Text to speech System</title>
+</head>
+<body>
+  <h1 id="project-title">Phusto Text to Speech System</h1>
+    
+
+  <table>
+      <tr>
+          Speech
+      </tr>
+      {% for name in speech_db %}
+      <tr>
+        <td> <div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div> 
+        </td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+          
+      </tr>
+      <tr>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+          
+      </tr><tr>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+        <td><div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div></td>
+          
+      </tr>
+      {% endfor %}
+  <table>
+      <tr>
+        <!-- table header -->
+        <th> Text  </th>
+        <th> Speech</th>
+      </tr>
+      {% for name in input %}
+      
+      <tr>
+        <td>US</td>
+        <td>
+            <div class="container">
+                <audio controls>
+                    <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+              
+                </div>
+        </td>
+        {% endfor %}
+        <td>
+          <div class="container">
+            <audio controls>
+                <source src="static/Datasets/1-us/1-us-1.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+          
+            </div>
+        </td>
+        
+      </tr>
+    </table>
