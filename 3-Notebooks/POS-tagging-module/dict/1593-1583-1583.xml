@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<words>
+  <entry>
+    <word>عدد</word>
+    <int>
+      <pron>(عَ+دَ+دْ)</pron>
+      <gram>[ع-اس-مذ-ج:ونه-عرج: اعداد]</gram>
+      <poem/>
+      <meanings>
+        <meaning>شمار- شمېر- هندسه- تعداد.</meaning>
+      </meanings>
+    </int>
+  </entry>
+<entry><word>عددي</word><int><pron>(عَ+دَ+دِي)</pron><gram>[صف]</gram><poem></poem><meanings><meaning>عدد (هندسې يا شمېر) سره تعلق لرونكے- عدد ته منسوب.</meaning></meanings></int></entry></words>

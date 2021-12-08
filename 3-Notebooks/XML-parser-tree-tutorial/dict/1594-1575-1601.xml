@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<words>
+  <entry>
+    <word>غافل</word>
+    <int>
+      <pron>(غا+ف+لْ)</pron>
+      <gram>[مص]</gram>
+      <poem>هومره خولې لګوي غافي&lt;br/&gt;تر هغه چې څه په خوله كړي&lt;br/&gt;(حميد بابا)</poem>
+      <meanings>
+        <meaning>غاپل.</meaning>
+      </meanings>
+    </int>
+  <int><pron>(غا+فِ+لْ)</pron><gram>[ع-اس-صف-مذ-ج:ان-(مو):ه]</gram><poem>عارفان همېش د خدائے په ياد مشغول وي&lt;br/&gt;د غافل توره د زړۀ تخته همه ده&lt;br/&gt;(خواجه محمد)</poem><meanings><meaning>غفلت كونكے- بې پروا- بې خبره- ناخبره.</meaning></meanings></int></entry>
+<entry><word>غافل پاتې كېدل</word><int><pron/><gram/><poem/><meanings><meaning>په غفلت كښې پاتې كېدل- ناخبره پاتې كېدل.</meaning></meanings></int></entry><entry><word>غافلول</word><int><pron>(غا+فِ+لَ+ؤ+لْ)</pron><gram>[مص]</gram><poem/><meanings><meaning>غافل كول- بې خبره كول- توجه بل خواته اړول- بې پامه كول.</meaning></meanings></int></entry><entry><word>غافلېدل</word><int><pron>(غا+فِ+لَې+د+لْ)</pron><gram>[مص]</gram><poem></poem><meanings><meaning>غافل كېدل- بې پروا كېدل- بې خبره كېدل- توجه نه وركول- پام بل خوا ګرځېدل.</meaning></meanings></int></entry></words>

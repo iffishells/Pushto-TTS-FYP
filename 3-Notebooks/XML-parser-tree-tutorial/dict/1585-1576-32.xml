@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<words>
+  <entry>
+    <word>رب العالمين</word>
+    <int>
+      <pron>(رَ+بْ+بُ+ل+مِي+نْ)</pron>
+      <gram>[ع تر-اس-مذ]</gram>
+      <poem/>
+      <meanings>
+        <meaning>د عالمونو رب د جهانونو پروردګار.</meaning>
+      </meanings>
+    </int>
+  </entry>
+<entry><word>رب انار</word><int><pron></pron><gram>(اص)</gram><poem></poem><meanings><meaning>رُب په عربۍ کښې نچوړ شوي عرق ته وئيلے شي رب انار د انارو ټينګ شربت ته وائي</meaning></meanings></int></entry></words>
