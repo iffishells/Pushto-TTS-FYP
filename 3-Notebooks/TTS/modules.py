@@ -36,36 +36,6 @@ def POS_tag_From_Database(token):
         pass
     
     
-def combining_dicts(self,filepath_1,filepath_2):
-    file2 = pd.read_csv(filepath_2)
-    word = list(file2.WORD)
-    POS = list(file2.POS)
-    if len(word)==len(POS):
-        pos_dictionary_2 = {}
-
-        for index in range(len(word)):
-            pos_dictionary_2[word[index]] = POS[index].strip()
-            
-        
-        
-    # file 1
-    file1 = pd.read_excel(filepath_1)
-
-    words = list(file1.token)
-    adjective = list(file1.Adjective)
-    if len(words)==len(adjective):
-        pos_dictionary_1 = {}
-        for index in range(len(words)):
-            pos_dictionary_1[words[index]] = adjective[index].strip()
-            
-    for index in range(len(words)):
-        word.append(words[index])
-        POS.append(adjective[index])
-    
-    
-    print("lenght of word : {} end lenght of POS :{} ".format(len(word),len(POS)))
-    
-    return word ,POS
 
 #now get two list of the words and respective POS
 def make_dataframe(self,list_of_word ,list_of_POS):
