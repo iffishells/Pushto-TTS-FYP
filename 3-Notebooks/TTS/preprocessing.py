@@ -13,6 +13,9 @@ import importlib
 from importlib import reload
 
 from Counting_dic import Pashto_dictionary
+import nltk
+#nltk.download('punkt')
+from nltk.tokenize import word_tokenize
 
  
 
@@ -73,7 +76,7 @@ def Normalization(text ,encoding = "utf8"):
     # remove the English character fromt the text
 
     text = re.sub('[a-zA-Z]', "", text)
-    print("Removed English text : ", text)
+    #print("Removed English text : ", text)
 
     # remove the special character form text
 
@@ -93,6 +96,14 @@ def Normalization(text ,encoding = "utf8"):
     return text
     
 
+def tokenization(normalized_text):
+    
+    # strip the extra space on given normalized text 
+    normalized_text= normalized_text.strip()
+    #normalized_text = normalized_text.split(' ')
+    
+    print(word_tokenize(normalized_text))
+
 
 
 
@@ -100,9 +111,9 @@ def Normalization(text ,encoding = "utf8"):
 
 
 if __name__ == '__main__':
-    #print("orginal text : ", "جمال د ګټے خو وو نه، لوږے تندے پرے تېرېدے اتاشه ")
+    print("orginal text : ", "جمال د ګټے خو وو نه، لوږے تندے پرے تېرېدے اتاشه ")
     sent = "جمال  #$%^&د ګټے* خو وو نه felm 1 23mfemp، لوږے تندے پرے تېرېدے اتاشه ABCfn nie pjfeinfep onofe"
     #print(sent.replace("1", "123"))
     #print("Damage Sentance : ", sent)
 
-    Normalization(sent)
+    tokenization(Normalization(sent))
