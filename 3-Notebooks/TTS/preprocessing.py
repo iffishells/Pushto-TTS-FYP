@@ -12,7 +12,7 @@ import re
 import importlib
 from importlib import reload
 
-from Counting_dic import Pashto_dictionary
+from linguistic_dictionay import Pashto_dictionary
 import nltk
 #nltk.download('punkt')
 from nltk.tokenize import word_tokenize
@@ -102,7 +102,8 @@ def tokenization(normalized_text):
     normalized_text= normalized_text.strip()
     #normalized_text = normalized_text.split(' ')
     
-    print(word_tokenize(normalized_text))
+    tokens = word_tokenize(normalized_text)
+    return tokens
 
 
 

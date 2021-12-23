@@ -7,6 +7,8 @@ Created on Wed Dec 22 07:31:22 2021
 """
 
 from preprocessing import Normalization
+from preprocessing import tokenization
+from tagging import Pos_tagging
 
 def user_text(sentance ):
     
@@ -17,10 +19,20 @@ def user_text(sentance ):
 
         
     # tokinzation
-    
+    tokenized = tokenization(normalizaed_text)
+    print("tokens : ",tokenized)
     
 
-
+    # now its time to tag the token from part of speeech
+    
+    
+    # case 0 :
+        # Those words contain in the database
+    for token in tokenized:
+        if Pos_tagging(token) is not None:
+            print(token,Pos_tagging(token))
+        else:
+            print("------------",token,"-------------")
 
 
 
