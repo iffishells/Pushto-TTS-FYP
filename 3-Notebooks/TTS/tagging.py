@@ -5,14 +5,9 @@ Created on Thu Dec 23 05:40:36 2021
 
 @author: ifti
 """
-
-import pandas as pd
-import numpy as np
 from linguistic_dictionay import Part_of_speech_dictionay
 
 def Pos_tagging(token=None):
-    
-    
     # case 0 
         # if token is none
     
@@ -24,7 +19,7 @@ def Pos_tagging(token=None):
         # if token exist in the database
     # part of speech database
     
-    if Part_of_speech_dictionay(token):
+    if Part_of_speech_dictionay(token) is not None:
         return Part_of_speech_dictionay(token)
     else:
         return None
@@ -52,5 +47,5 @@ def Pos_tagging(token=None):
 
 
 if __name__ == "__main__":
-    tagging("ABCD")
+    Pos_tagging("ABCD")
     

@@ -29,7 +29,7 @@ def combining_dicts(filepath_1, filepath_2):
             file_path_2 : file path
     '''
     # finding from file 1
-    file2 = pd.read_csv(filepath_2)
+    file2 = pd.read_csv(filepath_2,encoding = "utf-8")
 
     word = list(file2.WORD)
 
@@ -43,7 +43,7 @@ def combining_dicts(filepath_1, filepath_2):
 
     # reading from file 2
 
-    file1 = pd.read_excel(filepath_1)
+    file1 = pd.read_excel(filepath_1,encoding = "utf-8")
 
     words = list(file1.token)
     adjective = list(file1.Adjective)
@@ -105,6 +105,28 @@ def tokenization(normalized_text):
     tokens = word_tokenize(normalized_text)
     return tokens
 
+
+
+
+def grammar_to_tag(arg):
+    ""
+    switcher={
+            "Noun": "N",
+            "Verb": "V",
+            "Adverb": "ADV",
+            "Adjective": "ADJ",
+            "Numerical": "NUM",
+            "ProNoun" : "PRN",
+            "Abbreviation": "N",
+            "Interjection" : "INT",
+            "Particle" : "RP",
+            "Preposition" : "PrP",
+            "Postposition" : "PoP",
+            "Suffix" : "SUF",
+            "Prefix" : "PRF",
+            "Conjunction" : "CO"
+            }
+    return switcher.get(arg,"none")
 
 
 

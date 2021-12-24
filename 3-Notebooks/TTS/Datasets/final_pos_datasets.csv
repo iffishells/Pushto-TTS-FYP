@@ -16256,7 +16256,7 @@ words,POS
 اتل,			Adjective  
 اتلس,			Noun  
 اتلس,			Noun  
-اتلس,			numerical  
+اتلس,			Numerical  
 اتلسم,			Adjective  
 اتلوال,			Noun  
 اتلواله,			Noun  
@@ -16266,9 +16266,9 @@ words,POS
 اتمبار,			Noun  
 اتموسفير,			Noun  
 اتنوګرافي,			Noun  
-اتنيم,			numerical  
-اته,			numerical  
-اته ويشت,			numerical  
+اتنيم,			Numerical  
+اته,			Numerical  
+اته ويشت,			Numerical  
 اتهام,			Noun  
 اتو,			Noun  
 اتوار,			Noun  
@@ -16278,7 +16278,7 @@ words,POS
 اتوماتيک,			Adjective  
 اتومي,			Adjective  
 اتي,			Noun  
-اتيا,			numerical  
+اتيا,			Numerical  
 اتياونه,			Adverb  
 اتيايم,			Adjective  
 اتڅنډ,			Adjective  
@@ -17403,11 +17403,11 @@ words,POS
 اونګ,			Noun  
 اونۍ,			Noun  
 اوهام,			Noun  
-اوولس,			numerical  
+اوولس,			Numerical  
 اوولسم,			Adjective  
 اووم,			Adjective  
-اووه,			numerical  
-اويا,			numerical  
+اووه,			Numerical  
+اويا,			Numerical  
 اويايم,			Adjective  
 اوينه,			Noun  
 اويه,			Noun  
@@ -18968,11 +18968,11 @@ words,POS
 پنځکلن,			Adjective  
 پنځلسم,			Adjective  
 پنځم,			Adjective  
-پنځه,			numerical  
+پنځه,			Numerical  
 پنځه سويز,			Adjective  
 پنځه کلن,			Adjective  
-پنځه لس,			numerical  
-پنځوس,			numerical  
+پنځه لس,			Numerical  
+پنځوس,			Numerical  
 پنځوس پولۍ,			Noun  
 پنځوسی,			Noun  
 پنځګون,			Noun  
@@ -21782,7 +21782,7 @@ words,POS
 درګړي دګړي,			Adjective  
 درګی,			Noun  
 درۍ,			Noun  
-درې,			numerical  
+درې,			Numerical  
 درې څنډی,			Noun  
 درې ښاخۍ,			Noun  
 درېدل,			Verb  
@@ -21949,12 +21949,12 @@ words,POS
 دومی,			Noun  
 دونه,			Adverb  
 دونی,			Adverb  
-دوه,			numerical  
+دوه,			Numerical  
 دوه اړخيز,			Adjective  
 دوه پټی,			Adjective  
 دوه تاريز,			Adjective  
 دوه زړه,			Adjective  
-دوه سوه,			numerical  
+دوه سوه,			Numerical  
 دوه غبرګه,			Adjective  
 دوه کسيز,			Adjective  
 دوه مخی,			Adjective  
@@ -21965,7 +21965,7 @@ words,POS
 دوهۍ,			Noun  
 دووس,			Noun  
 دووسي,			Noun  
-دوولس,			numerical  
+دوولس,			Numerical  
 دوولسم,			Adjective  
 دوي,			proNoun  
 دويل,			Noun  
@@ -21983,12 +21983,12 @@ words,POS
 دوګ,			Noun  
 دي,			Verb  
 دي_دې,			Verb  
-ديارلس,			numerical  
+ديارلس,			Numerical  
 ديالکتيک,			Adjective  
 ديالکتيکي,			Adjective  
 ديانت,			Noun  
 ديد,			Noun  
-ديرلس,			numerical  
+ديرلس,			Numerical  
 ديرلسم,			Adjective  
 ديزانتري,			Noun  
 ديغ,			Adjective  
@@ -22031,7 +22031,7 @@ words,POS
 دې,			proNoun  
 دېب,			Noun  
 دېخوا,			Adverb  
-دېرش,			numerical  
+دېرش,			Numerical  
 دېرشم,			Adjective  
 دېره,			Noun  
 دېسي,			Adjective  
@@ -22563,7 +22563,7 @@ words,POS
 زده کړه,			Noun  
 زدوول,			Verb  
 زر,			Noun  
-زر,			numerical  
+زر,			Numerical  
 زراعت,			Noun  
 زراعتي,			Adjective  
 زرافه,			Noun  
@@ -23397,7 +23397,7 @@ words,POS
 سکڼل,			Verb  
 سکېچ,			Noun  
 سل,			Noun  
-سل,			numerical  
+سل,			Numerical  
 سلا,			Noun  
 سلابلا,			Adjective  
 سلاته,			Noun  
@@ -23615,7 +23615,7 @@ words,POS
 سونګوټ,			Noun  
 سونګټ,			Noun  
 سوه,			Noun  
-سوه,			numerical  
+سوه,			Numerical  
 سوهان,			Noun  
 سويچ,			Noun  
 سويچبورډ,			Noun  
@@ -23844,8 +23844,8 @@ words,POS
 شپ,			Adjective  
 شپ,			Noun  
 شپانه,			Noun  
-شپاړس,			numerical  
-شپاړلس,			numerical  
+شپاړس,			Numerical  
+شپاړلس,			Numerical  
 شپشتې,			Noun  
 شپنکی,			Noun  
 شپني,			Noun  
@@ -23864,7 +23864,7 @@ words,POS
 شپيشتې,			Noun  
 شپړ,			Adjective  
 شپړه,			Noun  
-شپږم,			numerical  
+شپږم,			Numerical  
 شپږن,			Adjective  
 شپږه,			Noun  
 شپږڅنډی,			Noun  
@@ -23872,7 +23872,7 @@ words,POS
 شپږګون,			Noun  
 شپږۍ,			Noun  
 شپېته,			Noun  
-شپېته,			numerical  
+شپېته,			Numerical  
 شپېتۍ,			Noun  
 شپېلغی,			Noun  
 شپېلک,			Noun  
@@ -23981,7 +23981,7 @@ words,POS
 شکېل,			Noun  
 شکېلول,			Verb  
 شل,			Adjective  
-شل,			numerical  
+شل,			Numerical  
 شلاخه,			Noun  
 شلاونډ,			Noun  
 شلبره,			Adjective  
@@ -26224,11 +26224,11 @@ words,POS
 لرې,			Adjective  
 لزوم,			Adverb  
 لژند,			Adjective  
-لس,			numerical  
+لس,			Numerical  
 لسان,			Noun  
 لست,			Noun  
 لستوڼی,			Noun  
-لسم,			numerical  
+لسم,			Numerical  
 لسګون,			Noun  
 لسی,			Noun  
 لشکرځای,			Noun  
@@ -26266,7 +26266,7 @@ words,POS
 لفټ,			Noun  
 لقب,			Noun  
 لک,			Adjective  
-لک,			numerical  
+لک,			Numerical  
 لک وبوک,			Adjective  
 لکنت,			Noun  
 لکه,			Noun  
@@ -28714,7 +28714,7 @@ words,POS
 ناببره,			Adverb  
 نابرابري,			Noun  
 نابرهو,			Adverb  
-نابغه,			numerical  
+نابغه,			Numerical  
 نابلد,			Adjective  
 نابوبره,			Adverb  
 نابود,			Adjective  
@@ -29243,7 +29243,7 @@ words,POS
 ننېدل,			Verb  
 نه,			Adverb  
 نه,			Adverb  
-نه,			numerical  
+نه,			Numerical  
 نه بدلېدونکی,			Adjective  
 نه بېلېدونکی,			Adjective  
 نهار,			Noun  
@@ -29295,7 +29295,7 @@ words,POS
 نول,			Noun  
 نول,			Noun  
 نولجن,			Adjective  
-نولس,			numerical  
+نولس,			Numerical  
 نولسم,			Adjective  
 نولکی,			Adjective  
 نولول,			Verb  
@@ -29313,14 +29313,14 @@ words,POS
 نومېيل,			Verb  
 نون,			Adjective  
 نون,			Noun  
-نونس,			numerical  
+نونس,			Numerical  
 نونسم,			Adjective  
 نونکۍ,			Noun  
 نونه,			Noun  
 نونڅه,			Noun  
 نوها,			Noun  
 نووګری,			Noun  
-نوي,			numerical  
+نوي,			Numerical  
 نويتوب,			Noun  
 نويستونی,			Noun  
 نويم,			Adjective  
@@ -30461,7 +30461,7 @@ words,POS
 يه,			interjection  
 يهود,			Noun  
 يهودي,			Adjective  
-يو,			numerical  
+يو,			Numerical  
 يوازي والی,			Noun  
 يوازيتوب,			Noun  
 يوازينی,			Adjective  
@@ -30515,9 +30515,9 @@ words,POS
 يووختيز,			Adjective  
 يووزری,			Adjective  
 يووستوی,			Adjective  
-يوولس,			numerical  
+يوولس,			Numerical  
 يوولسم,			Adjective  
-يوويشت,			numerical  
+يوويشت,			Numerical  
 يووړګ,			Noun  
 يوځلی,			Adverb  
 يوڅه,			Adjective  
@@ -30865,12 +30865,12 @@ words,POS
 څکېدل,			Verb  
 څکېړل,			Verb  
 څلاڅل,			Noun  
-څلرم,			numerical  
+څلرم,			Numerical  
 څلرمه خور,			Noun  
 څله,			Adverb  
 څله,			Noun  
 څله مست,			Noun  
-څلور,			numerical  
+څلور,			Numerical  
 څلور ګوټی,			Noun  
 څلوربول,			Noun  
 څلوربولي,			Noun  
@@ -30882,10 +30882,10 @@ words,POS
 څلورم,			Adjective  
 څلوريځه,			Noun  
 څلورڅنډی,			Noun  
-څلويښت,			numerical  
+څلويښت,			Numerical  
 څلويښتم,			Adjective  
 څلويښتي,			Noun  
-څليرويشت,			numerical  
+څليرويشت,			Numerical  
 څليرويشتم,			Adjective  
 څلګه,			Noun  
 څلی,			Noun  
@@ -30914,7 +30914,7 @@ words,POS
 څه چې,			proNoun  
 څو,			Adjective  
 څوار,			Noun  
-څوارلس,			numerical  
+څوارلس,			Numerical  
 څواړخيز,			Adjective  
 څوب,			Noun  
 څوباړی,			Noun  
@@ -30922,7 +30922,7 @@ words,POS
 څوچې,			Adverb  
 څوده,			Noun  
 څورب,			Adjective  
-څورلس,			numerical  
+څورلس,			Numerical  
 څورلسم,			Adjective  
 څورلسی,			Noun  
 څورنګ,			Adjective  
@@ -34332,7 +34332,7 @@ words,POS
 زلمي,Noun  
 لاهور,Noun  
 قلندرز,Noun  
-دس,numerical  
+دس,Numerical  
 ویکټو,Noun  
 لوېدلی,Adjective  
 انجام,Noun  
@@ -34388,7 +34388,7 @@ words,POS
 بیابان,Adverb  
 وکړو,Adverb  
 دلیل,Verb  
-یوه,numerical  
+یوه,Numerical  
 میرمن,Noun  
 وفاداره,Noun  
 مینه,Noun  

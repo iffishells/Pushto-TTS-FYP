@@ -6,7 +6,7 @@ Created on Wed Dec 22 14:02:06 2021
 @author: ifti
 """
 import pandas as pd
-def  Pashto_dictionary(num , encoding = "utf8") :
+def  Pashto_dictionary(num , encoding = "utf-8") :
     
     pasto_counting_dict = {
        1: "يو"
@@ -41,7 +41,7 @@ def Part_of_speech_dictionay(token):
             if token contain in the database then it will return the toke
             otherwise return the None
     '''
-    pos = pd.read_csv("Datasets/final_pos_datasets.csv")    
+    pos = pd.read_csv("Datasets/final_pos_datasets.csv" , encoding = "utf-8")    
     
     words_list = list(pos.words)
     pos_list = list(pos.POS)

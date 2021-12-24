@@ -9,6 +9,10 @@ Created on Wed Dec 22 07:31:22 2021
 from preprocessing import Normalization
 from preprocessing import tokenization
 from tagging import Pos_tagging
+from IPATranscription import IPA
+import importlib
+from importlib import reload
+from syllables_linguistic import syllables
 
 def user_text(sentance ):
     
@@ -28,38 +32,32 @@ def user_text(sentance ):
     
     # case 0 :
         # Those words contain in the database
-    for token in tokenized:
-        if Pos_tagging(token) is not None:
-            print(token,Pos_tagging(token))
+    for token in range(0,len(tokenized)):
+        print("------------",tokenized[token],"-----")
+        if Pos_tagging(tokenized[token]) is not None:
+            
+            print(tokenized[token],Pos_tagging(tokenized[token]))
+            
+            # for those words that not contain in the database
         else:
-            print("------------",token,"-------------")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            
+            # Rule  for new words
+                # need improvements for the numerical values in pashto
+            if  Pos_tagging(tokenized[token + 1]) in ["Verb" , "Punctuation","Auxiliary verb","Copula verb"]:
+                
+                print(tokenized[token],"Verb")
+            else:
+                print(tokenized[token],"Noun")
+    
+    
+    # for the syllables
+    for token in tokenized:
+        print(token , syllables(token))
+        
+        
 
 if __name__ == "__main__":
-    sent = "جمال  #$%^&د ګټے* خو وو نه felm 1 23mfemp، لوږے تندے پرے تېرېدے اتاشه ABCfn nie pjfeinfep onofe"
-
-    user_text(sent)
+    #sent = "جمال  #$%^&د ګټے* خو وو نه felm 1 23mfemp، لوږے تندے پرے تېرېدے اتاشه ABCfn nie pjfeinfep onofe"
+    doc = open("Datasets/test_corpus.txt", mode="r", encoding="utf-8").read()
+    #print(type(doc))
+    user_text(doc)
