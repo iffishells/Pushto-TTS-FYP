@@ -160,7 +160,7 @@ def IPA(char ,Final_=False ,Medial_=False, Initial_=False,Isolated_=False):
         f = open("Datasets/not_available_ipa.txt","+w")
         f.write(char)
         f.close()
-        print("{} Not present :" ,char)
+        print("{} Not present :".format(char))
         return 
         
 

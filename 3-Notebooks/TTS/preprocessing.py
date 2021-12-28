@@ -80,7 +80,7 @@ def Normalization(text ,encoding = "utf8"):
 
     # remove the special character form text
 
-    text = re.sub('[!@#$%^&*(){}]', "", text)
+    text = re.sub('[!@#$%^&*(){}-]', "", text)
 
     print("Removed the special character : ", text)
     
