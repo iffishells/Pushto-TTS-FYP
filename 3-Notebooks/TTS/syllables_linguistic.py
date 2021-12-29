@@ -45,33 +45,42 @@ def IPA_of_token(token):
         #print(ipa)
     return ipa
         
+def is_valid_syllable(cv):
+    if cv in ["V","VC","CV","CVC","CCV","CVCC","CCVC","CCCV","CCCVC"]:
+        return "Valid syllables"
+    else:
+        return "Not Valid syllables"
+
 
 def make_syllables(IPA_list):
     ''' Not decided yet'''
 
+#=============================================================================
     #reverse_list = reversed(IPA_list)
     ipa_str = ""
+    cv_Form =  ""
     
-    
-    for char_ipa in IPA_list:
+    for char_ipa in range(0,len(IPA_list)):
         #print("ipa :",char_ipa)
         
-        if char_ipa =="None":
+        if IPA_list[char_ipa] =="None":
             continue
         
-        if char_ipa in  ['ā','ai','a','i','o','u','e','əi','A','E','I','U','O' ]:
-            
-            ipa_str += char_ipa
+        if IPA_list[char_ipa] in  ['əi','ə','u','ɑ','ā','ai','a','i','o','u','e','əi','A','E','I','U','O' ]:
+            cv_Form+="V"
+            ipa_str += IPA_list[char_ipa]
         
         else:
-            print(char_ipa)
-            ipa_str += char_ipa + " "
+            #print(char_ipa)
+            cv_Form+="C"
+            ipa_str += IPA_list[char_ipa] + " "
             
-            
-    #print(ipa_str)
+    print(cv_Form)        
+    print(is_valid_syllable(cv_Form))
     return ipa_str
 
+# =============================================================================
 
 if __name__ == "__main__":
-    print(IPA_of_token("عقل"))
-    print(make_syllables( ['ā', 'q', 'l']))
+    print()
+    print(make_syllables(IPA_of_token("اړنګمن")))

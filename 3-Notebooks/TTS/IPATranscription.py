@@ -134,15 +134,7 @@ def IPA(char ,Final_=False ,Medial_=False, Initial_=False,Isolated_=False):
     Isolated= list(df["Isolated"])
     IPA = list(df["IPA"])
 
-    #print("Final :",len(Final))
 
-    #print("Medial :",len(Medial))
-
-    #print("Initial :",len(Initial))
-
-    #print("Isolated :",len(Isolated))
-
-    #print("IPA :",len(IPA))
 
     IPA_dic = {}
     

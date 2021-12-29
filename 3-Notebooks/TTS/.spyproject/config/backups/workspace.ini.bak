@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['tts.py', 'IPATranscription.py', 'Datasets/IPA_pashto.csv', 'syllables_linguistic.py']
+recent_files = ['tts.py', 'IPATranscription.py', 'syllables_linguistic.py', 'IPA_pashto.csv', 'Datasets/test_corpus.txt', 'Datasets/corpus.csv', 'Datasets/ao-kana.txt', 'Datasets/Pashto_pos_dict.csv', 'Datasets/final_pos_datasets.csv', 'Datasets/IPA_pashto.csv', 'Datasets/not_available_ipa.txt']
 
 [main]
 version = 0.2.0
