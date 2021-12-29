@@ -20,6 +20,13 @@ from importlib import reload
 
 
 def IPA_of_token(token):
+    '''
+        IPA_of_token() is a linguistic function to find the IPA of Pasto letter
+        
+        parameter : it take a token which actaully a single pashto word
+        
+        return : it will return the IPA of given pashto word from the lexicon
+    '''
     
     # iterate over the each token
     #print("token : {}".format(token))
@@ -46,6 +53,13 @@ def IPA_of_token(token):
     return ipa
         
 def is_valid_syllable(cv):
+    '''
+        is_valid_syllable() is helper function of linguistic part
+        
+        parameter : it will syllables
+        
+        return : it will return the string to tell you it is valid syllable or not.
+    '''
     if cv in ["V","VC","CV","CVC","CCV","CVCC","CCVC","CCCV","CCCVC"]:
         return "Valid syllables"
     else:
@@ -53,7 +67,16 @@ def is_valid_syllable(cv):
 
 
 def make_syllables(IPA_list):
-    ''' Not decided yet'''
+    '''
+        make_syllables() is the function of linguistic part of the program and
+        it will make the syllable of the given IPA
+        
+        
+        paramter : it takes the list of ipa of the token ,
+        
+        return : it  will return the syllables of the ipa
+        
+    '''
 
 #=============================================================================
     #reverse_list = reversed(IPA_list)

@@ -10,8 +10,9 @@ import pandas as pd
 import nltk
 def POS_tag_From_Database(token):
     ''' POS_tag_From_Database take single parameter which is token in pashto
-    and return the respective part of speech tag from the database
-    if len(words)==len(adjective) is not equal will return None
+        and return the respective part of speech tag from the database
+        if len(words)==len(adjective) is not equal will return None
+    
     return None if word not present in database
     '''
     
@@ -38,7 +39,15 @@ def POS_tag_From_Database(token):
     
 
 #now get two list of the words and respective POS
-def make_dataframe(self,list_of_word ,list_of_POS):
+def make_dataframe(list_of_word ,list_of_POS):
+    '''
+        make_dataframe()  is a helper function to make the CSV file from the 
+        pandas dataframe.
+        
+        parameter : it takes two parameter of different series for the dataframe.
+        
+        return : it will return nothing it will create the csv file from the series.
+    '''
     
     dict_dataframe = {
         "words" : list_of_word,
@@ -48,7 +57,19 @@ def make_dataframe(self,list_of_word ,list_of_POS):
     data = pd.DataFrame(dict_dataframe ,index = False ,header=False)
     
     data.to_csv("Pashto_pos_dict.csv",header=True ,index=False)
-def Tagging(self,sent,database):
+
+
+
+def Tagging(sent,database):
+    '''
+        Tagging() is the function to tag the sentance of part of speech
+        on the base of token
+        
+        parameter : it takes two parameter on the his pashto sentance and
+        other one is lexicon database
+        
+    '''
+    
     print("Given sentance : ",sent)
     
     tokenized = nltk.word_tokenize(sent) # just for sake of the moment making token at the space level.

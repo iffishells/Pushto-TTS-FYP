@@ -16,9 +16,9 @@ from importlib import reload
 from syllables_linguistic import IPA_of_token
 from syllables_linguistic import make_syllables
 
-def User_text(sentance ):
+def main_handler(sentance ):
     '''
-        User_text() function is the main function to deal with
+        main_handler() function is the main function to deal with
         every other moudle and also user input and his choices
         
         parameter :
@@ -75,4 +75,4 @@ if __name__ == "__main__":
     #sent = "جمال  #$%^&د ګټے* خو وو نه felm 1 23mfemp، لوږے تندے پرے تېرېدے اتاشه ABCfn nie pjfeinfep onofe"
     doc = open("Datasets/test_corpus.txt", mode="r", encoding="utf-8").read()
     #print(type(doc))
-    User_text(doc)
+    main_handler(doc)

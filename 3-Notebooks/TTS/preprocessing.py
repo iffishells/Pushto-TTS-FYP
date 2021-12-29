@@ -109,7 +109,16 @@ def tokenization(normalized_text):
 
 
 def grammar_to_tag(arg):
-    ""
+    '''
+        grammar_to_tag() is also the helping functionn of the linguistic part of
+        the program
+        
+        parameter : it takes one parameter which arge of the full spell of 
+        part of speech and it will return the short form of the respective POS
+        
+        return : it will return None if pos is not contain in the database
+                otherwise return the short form
+    '''
     switcher={
             "Noun": "N",
             "Verb": "V",

@@ -7,6 +7,15 @@ Created on Wed Dec 22 14:02:06 2021
 """
 import pandas as pd
 def  Pashto_dictionary(num , encoding = "utf-8") :
+    '''
+        Pashto_dictionary() is the functin to convert the counting digit into
+        the Pashto text form. Pashto_dictionary() covering the only 1 to 9 digit
+        
+        parameter : it takes two parameter one of his by default and other one
+        paramter from the user which is number
+        
+        return : it will return the string of the pasto digit.
+    '''
     
     pasto_counting_dict = {
        1: "يو"

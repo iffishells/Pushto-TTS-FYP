@@ -29,6 +29,7 @@ def scrapping_IPA():
     '''
     
     
+    
 
     try:
 

@@ -8,6 +8,16 @@ Created on Thu Dec 23 05:40:36 2021
 from linguistic_dictionay import Part_of_speech_dictionay
 
 def Pos_tagging(token=None):
+    
+    '''
+        Pos_tagging() is the function to do the pos tag from the pashto words
+        it relay on the database or lexicon database
+        
+        paramter : it will take token of the given words
+        
+        return : return the pos tag
+    '''
+    
     # case 0 
         # if token is none
     
